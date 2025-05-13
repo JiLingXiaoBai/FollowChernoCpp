@@ -23,7 +23,7 @@ public:
 	Player(const std::string& name)
 		: m_Name(name) { }
 	std::string GetName() override { return m_Name; }
-	//std::string GetClassName() override { return "Player"; }
+	std::string GetClassName() override { return "Player"; }
 };
 
 void PrintName(Entity* entity) {
