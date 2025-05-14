@@ -29,6 +29,7 @@ void PrintEntity(const Entity& e) {
 int main() {
 	Entity e;
 
+	PrintEntity(e);
 
 	const int MAX_AGE = 90;
 
