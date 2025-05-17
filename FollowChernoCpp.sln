@@ -31,7 +31,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyingAndCopyConstructors"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrowOperator", "ArrowOperator\ArrowOperator.vcxproj", "{AA33E17D-D74D-4DF2-832F-BE5E6C1689FD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorOverride", "OperatorOverride\OperatorOverride.vcxproj", "{CFB641E6-28F2-49EC-ADD7-73B7669F8C0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorOverload", "OperatorOverload\OperatorOverload.vcxproj", "{CFB641E6-28F2-49EC-ADD7-73B7669F8C0A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StdVector", "StdVector\StdVector.vcxproj", "{3D00FA84-6A10-43F7-93AB-B20AD9A82BEF}"
 EndProject
@@ -40,6 +40,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLinkingLibrary", "StaticLinkingLibrary\StaticLinkingLibrary.vcxproj", "{6C7F58AD-5D74-4076-B82D-A4A02B5351FA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicLinkingLibrary", "DynamicLinkingLibrary\DynamicLinkingLibrary.vcxproj", "{1CE9F8FD-2DEC-4667-8040-34FA13150274}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingAndWorkingWithLibrariesGame", "MakingAndWorkingWithLibraries\MakingAndWorkingWithLibrariesGame\MakingAndWorkingWithLibrariesGame.vcxproj", "{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingAndWorkingWithLibrariesEngine", "MakingAndWorkingWithLibraries\MakingAndWorkingWithLibrariesEngine\MakingAndWorkingWithLibrariesEngine.vcxproj", "{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,22 @@ Global
 		{1CE9F8FD-2DEC-4667-8040-34FA13150274}.Release|x64.Build.0 = Release|x64
 		{1CE9F8FD-2DEC-4667-8040-34FA13150274}.Release|x86.ActiveCfg = Release|Win32
 		{1CE9F8FD-2DEC-4667-8040-34FA13150274}.Release|x86.Build.0 = Release|Win32
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Debug|x64.ActiveCfg = Debug|x64
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Debug|x64.Build.0 = Debug|x64
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Debug|x86.Build.0 = Debug|Win32
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Release|x64.ActiveCfg = Release|x64
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Release|x64.Build.0 = Release|x64
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Release|x86.ActiveCfg = Release|Win32
+		{FE4BAE2A-D8E8-49D1-9851-8C841627D2F3}.Release|x86.Build.0 = Release|Win32
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Debug|x64.ActiveCfg = Debug|x64
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Debug|x64.Build.0 = Debug|x64
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Debug|x86.Build.0 = Debug|Win32
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Release|x64.ActiveCfg = Release|x64
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Release|x64.Build.0 = Release|x64
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Release|x86.ActiveCfg = Release|Win32
+		{C6FA07DC-6AEB-4C1F-956A-FDA1A6C4D82D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
