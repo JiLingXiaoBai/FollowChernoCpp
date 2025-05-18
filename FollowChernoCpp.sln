@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingAndWorkingWithLibrari
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Templates.vcxproj", "{6B4C1572-C02F-4B97-B5F4-B10E07B4340F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Macros", "Macros\Macros.vcxproj", "{42DC294F-67B0-446A-9338-EC3E85FAD753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{6B4C1572-C02F-4B97-B5F4-B10E07B4340F}.Release|x64.Build.0 = Release|x64
 		{6B4C1572-C02F-4B97-B5F4-B10E07B4340F}.Release|x86.ActiveCfg = Release|Win32
 		{6B4C1572-C02F-4B97-B5F4-B10E07B4340F}.Release|x86.Build.0 = Release|Win32
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Debug|x64.ActiveCfg = Debug|x64
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Debug|x64.Build.0 = Debug|x64
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Debug|x86.ActiveCfg = Debug|Win32
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Debug|x86.Build.0 = Debug|Win32
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Release|x64.ActiveCfg = Release|x64
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Release|x64.Build.0 = Release|x64
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Release|x86.ActiveCfg = Release|Win32
+		{42DC294F-67B0-446A-9338-EC3E85FAD753}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
