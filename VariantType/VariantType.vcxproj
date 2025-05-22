@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{120f584f-52c2-4773-b155-bd59aeccc87f}</ProjectGuid>
-    <RootNamespace>StructuredBindings</RootNamespace>
+    <ProjectGuid>{ce2ecbb7-029c-4666-9dce-3fa5f6631cb3}</ProjectGuid>
+    <RootNamespace>VariantType</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
